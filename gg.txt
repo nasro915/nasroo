@@ -1,0 +1,88 @@
+[20:02, 18/12/2024] Sabriin: public class DesignPattern {
+    public static void main(String[] args) {
+        int rows = 5; // Tirada safafka (dhererka design-ka)
+
+        for (int i = 1; i <= rows; i++) {  // Loop loogu talagalay safafka (row)
+            for (int j = 1; j <= i; j++) { // Loop loogu talagalay columns-ka (xariiqda)
+                System.out.print("* ");   // Daabac calaamada '*'
+            }
+            System.out.println();  // Saf cusub u gudub
+        }
+    }
+}
+[20:04, 18/12/2024] Nasra Mahamuud: https://meet.google.com/ewf-mtzj-kgt
+[20:05, 18/12/2024] Sabriin: #include <iostream>
+using namespace std;
+
+int main() {
+    int rows = 5; // Tirada safafka
+    for (int i = 1; i <= rows; i++) { // Loop safafka
+        for (int j = 1; j <= i; j++) { // Loop columns-ka
+            cout << "* "; // Daabac calaamada '*'
+        }
+        cout << endl; // Gudub saf cusub
+    }
+    return 0;
+}
+[20:05, 18/12/2024] Nasra Mahamuud: somali
+[20:07, 18/12/2024] Sabriin: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section with Navigation -->
+    <header>
+        <div class="logo">MyWebsite</div>
+        <nav>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Your success starts here!</p>
+        <a href="#about" class="hero-btn">Learn More</a>
+    </section>
+
+    <!-- Main Content Section with Cards -->
+    <main>
+        <section class="cards">
+            <div class="card">
+                <h2>About Us</h2>
+                <p>Learn more about our mission and values.</p>
+                <a href="#about" class="card-btn">Read More</a>
+            </div>
+            <div class="card">
+                <h2>Our Services</h2>
+                <p>Discover the wide range of services we offer.</p>
+                <a href="#services" class="card-btn">Explore</a>
+            </div>
+            <div class="card">
+                <h2>Get in Touch</h2>
+                <p>Contact us for more information.</p>
+                <a href="#contact" class="card-btn">Contact</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
